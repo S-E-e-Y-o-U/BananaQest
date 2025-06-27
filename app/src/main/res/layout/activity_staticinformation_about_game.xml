@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmainmenu"
+    tools:context=".StaticinformationAboutGame" >
+
+    <ImageButton
+        android:id="@+id/buttonback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button_back" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="354dp"
+        android:layout_height="512dp"
+        android:layout_marginTop="56dp"
+        android:text=" это увлекательная игра в стиле ретро-8bit, где тебе предстоит играть за смелого путешественника, собирающего бананы, чтобы набрать как можно больше очков! Но будь осторожен — злая обезьянка так и норовит помешать твоему сбору!
+
+Особенности игры:
+🎵 Музыка в стиле 8-bit — можно включить или выключить в настройках для полного погружения в атмосферу!
+🍌 Собирай бананы — каждое собранное лакомство приносит тебе очки.
+🐒 Избегай обезьянку — у тебя всего 3 жизни, а она не дремлет!
+⏸️ Пауза и продолжение — играй в своём темпе.
+
+Сможешь ли ты побить все рекорды?
+Готов проверить свою реакцию и собрать максимум бананов? 🚀🍌
+
+Запускай игру и покажи, кто здесь чемпион! 🎮🔥"
+        android:textColor="#FF0000"
+        android:textSize="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonback" />
+</androidx.constraintlayout.widget.ConstraintLayout>
